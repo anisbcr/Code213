@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  font-family: arial, sans-serif;
+}
+li.succes {
+  text-decoration: line-through;
+  color: #888;
+}
+li {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+}
+input {
+  padding: 10px;
+  border-radius: 3%;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.gogo {
+  display: flex;
+  gap: 5px;
+}
+form button {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.gogo button:hover{
+  background-color: #218838;
+}
+form {
+  width: 100%;
+  margin-top: 5%;
+}
+.but {
+  display: flex;
+  gap: 5px;
+}
+.news {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+  
+}
+.but button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #dc3534;
+  border-radius: 6px;
+}
+.but button:hover{
+background-color: #c82333;
+}
+h1{
+  font-size: 25px;
+}
