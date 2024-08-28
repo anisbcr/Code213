@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 99999999999;
+  height: 12vh;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 20px;
+}
+
+.links :hover {
+  color: rgba(167, 57, 13, 0.829);
+  text-decoration: underline;
+}
+
+.links a {
+  text-decoration: none;
+  color: gray;
+}
+header {
+  width: 100%;
+  height: 129vh;
+  padding-left: 10rem;
+  padding-right: 6rem;
+  position: relative;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.right img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+  image-rendering: auto;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 55%;
+  align-items: center;
+  gap: 40px;
+  margin-left: 6%;
+}
+.left h1 {
+  font-size: 8rem;
+  color: rgba(231, 103, 17, 0.404);
+
+  width: 50%;
+  padding-bottom: 8px;
+}
+.left p {
+  font-size: 5rem;
+  width: 45%;
+  color: rgb(158, 116, 94);
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  border: 2px solid white;
+}
+.conatainer {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+
+  height: 75vh;
+}
+.left1 {
+  display: flex;
+  flex-direction: column;
+  width: 77%;
+  gap: 20px;
+
+  border-radius: 12px;
+}
+.texte {
+  font-size: 2rem;
+  padding-left: 8rem;
+}
+.right1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  align-items: center;
+  width: 40%;
+  gap: 5px;
+}
+.items1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.items2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.items1 li {
+  font-size: 14px;
+  width: 100%;
+}
+
+.right1 h2 {
+  font-size: 20px;
+  width: 100%;
+}
+.left1 span {
+  font-size: 18px;
+  width: 90%;
+  line-height: 25px;
+  display: flex;
+  text-align: center;
+}
+.left1 h1 {
+  font-size: 3rem;
+  width: 90%;
+  padding-left: 2rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.images {
+  display: flex;
+
+  margin-left: 35%;
+  gap: 12px;
+}
+.images img {
+  width: 44%;
+}
+.section1 {
+  padding-top: 10rem;
+  height: 75vh;
+
+  height: 100vh;
+}
+.partie2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.logo2 {
+  margin-right: 32%;
+}
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding-left: 15rem;
+  padding-right: 10rem;
+  height: 82vh;
+  gap: 45px;
+  margin-top: 2%;
+  width: 100%;
+  background-color: hsl(0, 0%, 98%);
+}
+.random img {
+  width: 100%;
+  height: 55%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.random {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  flex-direction: column;
+  overflow: hidden;
+  gap: 18px;
+
+  width: 50%;
+  border-radius: 12px;
+  height: 35vh;
+}
+.nu {
+  display: flex;
+  flex-direction: column;
+
+  width: 75%;
+  gap: 8px;
+}
+.nu h3 {
+  font-size: 14px;
+  width: 145%;
+  padding-left: 15px;
+}
+.nu p {
+  font-size: 12px;
+  width: 120%;
+  line-height: 20px;
+  padding-left: 20px;
+}
+.section1 {
+  background-color: hsl(0, 0%, 98%);
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20rem;
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  height: 120vh;
+  width: 100%;
+  padding-left: 10rem;
+  position: relative;
+}
+.home {
+  display: flex;
+  padding: 5rem;
+  gap: 12px;
+  flex-direction: column;
+  position: absolute;
+  left: 20%;
+  bottom: 24%;
+  background-color: white;
+  width: 35%;
+  height: 35vh;
+}
+.last1 img {
+  position: absolute;
+  z-index: -1;
+  bottom: 30%;
+  left: 45%;
+  width: 35%;
+  height: 45vh;
+}
+.home h2 {
+  font-size: 4rem;
+}
+.home p {
+  font-size: 15px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  gap: 15px;
+}
+.mpm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15rem;
+  gap: 10px;
+  background-image: url(/pizzorino_website/images/pizza-4952508_1280.jpg);
+  height: 74vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  margin-top: 10%;
+}
+button {
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    hsl(49, 75%, 49%),
+    hsl(29, 73%, 41%)
+  );
+  border-radius: 12px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  background-image: url(/pizzorino_website/images/pizza-4952508_1280.copie.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 25rem;
+  padding-top: 5rem;
+  color: white;
+}
+.links2 a {
+  text-decoration: none;
+}
+.links2 a {
+  color: orange;
+}
