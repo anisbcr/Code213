@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  background-color: white;
+  height: 85vh;
+  gap: 5%;
+  background-color: #3b4664;
+  
+}
+body {
+  background-color: #3b4664;
+  display: flex;
+  justify-content: center;
+  font-family: "Source Code Pro", monospace;
+  align-items: center;
+  height: 100vh;
+}
+.debut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.milieu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 14px;
+  background-color: #181f32;
+  height: 15vh;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 6%;
+  color: white;
+}
+
+.milieu p {
+  font-size: 4rem;
+}
+.fin {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5%;
+  border-radius: 12px;
+  background-color: #252d44;
+  padding: 5% 5% 5% 5%;
+  height: 55vh;
+}
+
+.uno button {
+  width: 100%;
+  height: 7vh;
+  box-shadow: 0 3px #a8a8a8;
+  border-radius: 12px;
+  font-size: 2rem;
+  border: none;
+}
+.uno1 button {
+  width: 100%;
+  height: 7vh;
+  box-shadow: 0 3px #647299;
+  border-radius: 12px;
+  font-size: 2rem;
+  width: 223%;
+  background-color: #414e72;
+  border: none;
+}
+
+.uno3 button {
+  width: 100%;
+  height: 7vh;
+  box-shadow: 0 3px #647299;
+  border-radius: 12px;
+  font-size: 2rem;
+  background-color: #414e72;
+  border: none;
+}
+.uno2 button {
+  width: 100%;
+  height: 7vh;
+  box-shadow: 0 3px #932519;
+  border-radius: 12px;
+  font-size: 2rem;
+  margin-left: 123%;
+  width: 223%;
+  background-color: #d13f30;
+  border: none;
+}
+.lyo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2%;
+}
+.number {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+
+  color: white;
+}
+.all {
+  background-color: #181f32;
+  width: 45px;
+  border-radius: 15px;
+  height: 16px;
+  padding-top: 3px;
+  
+}
+.cercle {
+  background-color: #932519;
+  width: 13px;
+  height: 13px;
+  border-radius: 15px;
+}
+
+.nouv {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 90%;
+}
+.nouv h1 {
+  margin-top: 55%;
+  font-size: 30px;
+}
+
+
+.para {
+  color: white;
+  font-size: 12px;
+  margin-left: 50%;
+  margin-top: 7%;
+}
+@media screen and (max-width:800px) {
+  .container{
+    width: 55%;
+    
+  }
+}
